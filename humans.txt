@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    John Nolan - Technical Architect
+
+# THANKS
+
+    Everyone
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
