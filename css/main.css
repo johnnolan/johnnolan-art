@@ -7,5 +7,6 @@ p {
 }
 
 .holding-image {
-    width: 920px;
+    width: 100%;
+    max-width: 920px;
 }
