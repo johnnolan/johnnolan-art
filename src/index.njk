@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Title Strings
 ---
 <section class="gallery">
-    {% for art in siteData.art.vertical %}
+    {% for art in siteData.art.horizontal %}
         <article class="gallery__item">
             <h2 class="gallery__title">{{ art.name }}</h2>
             <img class="gallery__image" src="{{art.image}}.jpeg" alt="{{art.description}}" />
@@ -13,7 +13,7 @@ title: Title Strings
 </section>
 
 <section class="gallery">
-    {% for art in siteData.art.horizontal %}
+    {% for art in siteData.art.vertical %}
         <article class="gallery__item">
             <h2 class="gallery__title">{{ art.name }}</h2>
             <img class="gallery__image" src="{{art.image}}.jpeg" alt="{{art.description}}" />
