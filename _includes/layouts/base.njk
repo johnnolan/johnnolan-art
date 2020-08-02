@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>JB Nolan Art</title>
+      <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://www.googletagmanager.com" />
@@ -24,13 +24,9 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
 
-  <body>
+<body>
     <main>
-      <h1>JB Nolan Art</h1>
-      <div>
-        <img src="img/holding-art.jpeg" class="holding-image" alt="Distant mountains with a waterfall leading into a forest valley." />
-      </div>
-      <p>Coming Soon...</p>
+      {{ content | safe }}
     </main>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
