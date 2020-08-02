@@ -6,6 +6,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <meta property="og:title" content="JB Nolan Art" />
     <meta property="og:type" content="" />
@@ -13,9 +14,9 @@
     <meta property="og:image" content="" />
 
     <link rel="manifest" href="site.webmanifest" />
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/typebase.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
@@ -24,7 +25,10 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
 
-<body>
+<body class="wrapper">
+    <header class="site-title">
+      {{siteData.name}}
+    </header>
     <main>
       {{ content | safe }}
     </main>

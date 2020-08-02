@@ -1,12 +1,44 @@
 body {
     text-align: center;
+    font-family: 'Mukta', sans-serif;
+    color: #222222;
 }
 
-p {
-    font-family: sans-serif;
+.wrapper {
+    text-align: left;
+    margin: 20px;
+    text-align: left;
 }
 
-.holding-image {
+.site-title {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.gallery {
     width: 100%;
-    max-width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery__item {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.gallery__image {
+    width: 100%;
+}
+
+.gallery__title {
+    font-weight: 700;
+}
+
+.gallery__description {
+    font-weight: 300;
+    color: #5a5a5a;
+    font-size: 1.2em;
 }

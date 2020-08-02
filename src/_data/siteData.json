@@ -1,10 +1,49 @@
 {
-    "name": "JB Nolan Art",
-    "art": [
+  "name": "JB Nolan Art.",
+  "art": {
+    "horizontal": [
       {
         "name": "Waterfall Valley and Mountains",
         "description": "Distant mountains with a waterfall leading into a forest valley.",
-        "image": "img/holding-art"
+        "image": "img/artwork/waterfall-mountain-valley"
+      },
+      {
+        "name": "Waterfall Valley and Mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/blue-mountain-range"
+      },
+      {
+        "name": "Waterfall Valley and Mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/evening-countryside"
+      },
+      {
+        "name": "Waterfall Valley and Mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/frozen-mountain-lake"
+      },
+      {
+        "name": "Waterfall Valley and Mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/mountain-lake"
+      }
+    ],
+    "vertical": [
+      {
+        "name": "Waterfall Valley and Mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/pride-sunset"
+      },
+      {
+        "name": "Waterfall Valley and Mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/sea-sunset"
+      },
+      {
+        "name": "Waterfall Valley and Mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/waterfall"
       }
     ]
   }
+}
