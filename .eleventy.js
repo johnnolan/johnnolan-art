@@ -7,6 +7,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('*.webmanifest')
     eleventyConfig.addPassthroughCopy('*.txt')
     return {
+      dir: { input: 'src', output: '_site', data: '_data' },
+      templateFormats: ['njk', 'md', 'css', 'html', 'yml'],
+      htmlTemplateEngine: 'njk',
       passthroughFileCopy: true
     }
   }
