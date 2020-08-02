@@ -1,0 +1,49 @@
+{
+  "name": "JB Nolan Art.",
+  "art": {
+    "horizontal": [
+      {
+        "name": "Waterfall valley and mountains",
+        "description": "Distant mountains with a waterfall leading into a forest valley.",
+        "image": "img/artwork/waterfall-mountain-valley"
+      },
+      {
+        "name": "Blue ridge mountain range",
+        "description": "Lit up Blue Ridged Mountain range whith a group of trees just in the fore front.",
+        "image": "img/artwork/blue-mountain-range"
+      },
+      {
+        "name": "Evening countryside view",
+        "description": "Evening settling on a cloudy, sunny day silhouetting the hilly countryside.",
+        "image": "img/artwork/evening-countryside"
+      },
+      {
+        "name": "Frozen mountain lake",
+        "description": "Frozen lake with trees at the foot of a cold, cloudless sky mountain.",
+        "image": "img/artwork/frozen-mountain-lake"
+      },
+      {
+        "name": "Sunny mountain lake",
+        "description": "A view from the bottom of a lake looking up at distant mountains shining in the afternoon sun.",
+        "image": "img/artwork/mountain-lake"
+      }
+    ],
+    "vertical": [
+      {
+        "name": "Pride sunset",
+        "description": "A vivid play on a deep coloured sky as the sun sets of a hillside.",
+        "image": "img/artwork/pride-sunset"
+      },
+      {
+        "name": "Daughters twilight sea sunset",
+        "description": "A twilight sunset with stars shining and a mix of clouds and bright sky hues over a calm sea.",
+        "image": "img/artwork/sea-sunset"
+      },
+      {
+        "name": "Tropical Waterfall",
+        "description": "A center stage waterfall with bright flora engulfing it.",
+        "image": "img/artwork/waterfall"
+      }
+    ]
+  }
+}
