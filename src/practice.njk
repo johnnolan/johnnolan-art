@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+title: JB Nolan Art
+---
+<h2 class="site-subtitle">
+    Practice Gallery
+</h2>
+<section class="gallery">
+    {% for art in siteData.art.horizontal %}
+        <article class="gallery__item">
+            <h2 class="gallery__title">{{ art.name }}</h2>
+            <img class="gallery__image" src="/{{art.image}}.jpg" alt="{{art.description}}" />
+            <figcaption class="gallery__description">{{art.description}}</figcaption>
+        </article>
+    {% endfor %}
+</section>
+
+<section class="gallery">
+    {% for art in siteData.art.vertical %}
+        <article class="gallery__item">
+            <h2 class="gallery__title">{{ art.name }}</h2>
+            <img class="gallery__image" src="/{{art.image}}.jpg" alt="{{art.description}}" />
+            <figcaption class="gallery__description">{{art.description}}</figcaption>
+        </article>
+    {% endfor %}
+</section>
