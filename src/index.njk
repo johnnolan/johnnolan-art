@@ -2,22 +2,18 @@
 layout: layouts/base.njk
 title: JB Nolan Art
 ---
-<section class="gallery">
-    {% for art in siteData.art.horizontal %}
-        <article class="gallery__item">
-            <h2 class="gallery__title">{{ art.name }}</h2>
-            <img class="gallery__image" src="{{art.image}}.jpeg" alt="{{art.description}}" />
-            <figcaption class="gallery__description">{{art.description}}</figcaption>
-        </article>
-    {% endfor %}
-</section>
+<section class="gallery--small">
+    <article class="gallery__item--small">
+        <h2 class="gallery__title--small">Mountain Ranges (Coming Soon)</h2>
+        <img class="gallery__image--small" src="/{{siteData.art.vertical[0].image}}.jpg" alt="Collection of Mountain Art for sale coming soon" />
+        <figcaption class="gallery__description--small">Collection of Mountain Art for sale</figcaption>
+    </article>
 
-<section class="gallery">
-    {% for art in siteData.art.vertical %}
-        <article class="gallery__item">
-            <h2 class="gallery__title">{{ art.name }}</h2>
-            <img class="gallery__image" src="{{art.image}}.jpeg" alt="{{art.description}}" />
-            <figcaption class="gallery__description">{{art.description}}</figcaption>
-        </article>
-    {% endfor %}
+    <article class="gallery__item--small">
+        <a href="/practice/" title="Practice and assorted paintings">
+            <h2 class="gallery__title--small">Practice and assorted paintings</h2>
+            <img class="gallery__image--small" src="/{{siteData.art.vertical[1].image}}.jpg" alt="Practice and assorted paintings" />
+            <figcaption class="gallery__description--small">Practice and assorted paintings</figcaption>
+        </a>
+    </article>
 </section>

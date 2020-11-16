@@ -4,12 +4,28 @@ body {
     color: #222222;
 }
 
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #222222;
+}
+
 .wrapper {
     text-align: left;
     margin: 20px;
 }
 
 .site-title {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.site-subtitle {
     font-size: 2em;
     font-weight: 800;
     text-align: center;
@@ -44,6 +60,34 @@ body {
 }
 
 .gallery__description {
+    font-weight: 300;
+    color: #5a5a5a;
+    font-size: 1.2em;
+}
+
+.gallery--small {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery__item--small {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.gallery__image--small {
+    width: 100%;
+}
+
+.gallery__title--small {
+    font-weight: 700;
+}
+
+.gallery__description--small {
     font-weight: 300;
     color: #5a5a5a;
     font-size: 1.2em;
