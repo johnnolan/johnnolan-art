@@ -3,9 +3,34 @@
   "art": {
     "horizontal": [
       {
+        "name": "Sunset Waves",
+        "description": "Sunset over a mountain backdrop reflecting in a lake.",
+        "image": "img/artwork/sunset-waves"
+      },
+      {
+        "name": "Sunset Cliffs",
+        "description": "Sunset with waves over a mountainous cliff side.",
+        "image": "img/artwork/sunset-cliffs"
+      },
+      {
+        "name": "Peeky Mountains",
+        "description": "Peeks of a mountain range breaking above a dense fog in the distance.",
+        "image": "img/artwork/peeky-mountains"
+      },
+      {
         "name": "Waterfall valley and mountains",
         "description": "Distant mountains with a waterfall leading into a forest valley.",
         "image": "img/artwork/waterfall-mountain-valley"
+      },
+      {
+        "name": "Whiteout Purple Tree",
+        "description": "Winter solstice with a mythical purple tree.",
+        "image": "img/artwork/purple-snow-tree"
+      },
+      {
+        "name": "Green Mountain Bay",
+        "description": "Autumnal foliage with a mountain backdrop.",
+        "image": "img/artwork/green-bay"
       },
       {
         "name": "Blue ridge mountain range",
@@ -29,6 +54,16 @@
       }
     ],
     "vertical": [
+      {
+        "name": "Misty top Mountains",
+        "description": "Mountain peeks over a misty cloud filled sky.",
+        "image": "img/artwork/misty-top-mountains"
+      },
+      {
+        "name": "Autumn Mountainside",
+        "description": "Moody autumn mountainside before the storm.",
+        "image": "img/artwork/autumn-mountainside"
+      },
       {
         "name": "Pride sunset",
         "description": "A vivid play on a deep coloured sky as the sun sets of a hillside.",
