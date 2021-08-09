@@ -3,81 +3,103 @@
   "art": {
     "horizontal": [
       {
+        "name": "Misty Lake",
+        "description": "Lone tree on a Misty Lake",
+        "image": "img/artwork/misty-lake",
+        "largeimage": "img/artwork/large/misty-lake",
+        "large": true
+      },
+      {
         "name": "Sunset Waves",
         "description": "Sunset over a mountain backdrop reflecting in a lake.",
-        "image": "img/artwork/sunset-waves"
+        "image": "img/artwork/sunset-waves",
+        "large": false
       },
       {
         "name": "Sunset Cliffs",
         "description": "Sunset with waves over a mountainous cliff side.",
-        "image": "img/artwork/sunset-cliffs"
+        "image": "img/artwork/sunset-cliffs",
+        "large": false
       },
       {
         "name": "Peeky Mountains",
         "description": "Peeks of a mountain range breaking above a dense fog in the distance.",
-        "image": "img/artwork/peeky-mountains"
+        "image": "img/artwork/peeky-mountains",
+        "large": false
       },
       {
         "name": "Waterfall valley and mountains",
         "description": "Distant mountains with a waterfall leading into a forest valley.",
-        "image": "img/artwork/waterfall-mountain-valley"
+        "image": "img/artwork/waterfall-mountain-valley",
+        "large": false
       },
       {
         "name": "Whiteout Purple Tree",
         "description": "Winter solstice with a mythical purple tree.",
-        "image": "img/artwork/purple-snow-tree"
+        "image": "img/artwork/purple-snow-tree",
+        "large": false
       },
       {
         "name": "Green Mountain Bay",
         "description": "Autumnal foliage with a mountain backdrop.",
-        "image": "img/artwork/green-bay"
+        "image": "img/artwork/green-bay",
+        "large": false
       },
       {
         "name": "Blue ridge mountain range",
         "description": "Lit up Blue Ridged Mountain range whith a group of trees just in the fore front.",
-        "image": "img/artwork/blue-mountain-range"
+        "image": "img/artwork/blue-mountain-range",
+        "large": false
       },
       {
         "name": "Evening countryside view",
         "description": "Evening settling on a cloudy, sunny day silhouetting the hilly countryside.",
-        "image": "img/artwork/evening-countryside"
+        "image": "img/artwork/evening-countryside",
+        "large": false
       },
       {
         "name": "Frozen mountain lake",
         "description": "Frozen lake with trees at the foot of a cold, cloudless sky mountain.",
-        "image": "img/artwork/frozen-mountain-lake"
+        "image": "img/artwork/frozen-mountain-lake",
+        "large": false
       },
       {
         "name": "Sunny mountain lake",
         "description": "A view from the bottom of a lake looking up at distant mountains shining in the afternoon sun.",
-        "image": "img/artwork/mountain-lake"
+        "image": "img/artwork/mountain-lake",
+        "large": false
       }
     ],
     "vertical": [
       {
         "name": "Misty top Mountains",
         "description": "Mountain peeks over a misty cloud filled sky.",
-        "image": "img/artwork/misty-top-mountains"
+        "image": "img/artwork/misty-top-mountains",
+        "large": false
       },
       {
         "name": "Autumn Mountainside",
         "description": "Moody autumn mountainside before the storm.",
-        "image": "img/artwork/autumn-mountainside"
+        "image": "img/artwork/autumn-mountainside",
+        "large": false
       },
       {
         "name": "Pride sunset",
         "description": "A vivid play on a deep coloured sky as the sun sets of a hillside.",
-        "image": "img/artwork/pride-sunset"
+        "image": "img/artwork/pride-sunset",
+        "large": false
       },
       {
         "name": "Daughters twilight sea sunset",
         "description": "A twilight sunset with stars shining and a mix of clouds and bright sky hues over a calm sea.",
-        "image": "img/artwork/sea-sunset"
+        "image": "img/artwork/sea-sunset",
+        "large": false
       },
       {
         "name": "Tropical Waterfall",
         "description": "A center stage waterfall with bright flora engulfing it.",
-        "image": "img/artwork/waterfall"
+        "image": "img/artwork/waterfall",
+        "large": false
       }
     ]
   }
