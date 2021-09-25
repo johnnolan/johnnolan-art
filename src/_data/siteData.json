@@ -3,8 +3,15 @@
   "art": {
     "horizontal": [
       {
+        "name": "Snow Lake",
+        "description": "Winter lake with snow topped trees and distant mountains.",
+        "image": "img/artwork/snow-lake",
+        "largeimage": "img/artwork/large/snow-lake",
+        "large": true
+      },
+      {
         "name": "Misty Lake",
-        "description": "Lone tree on a Misty Lake",
+        "description": "Lone tree on a Misty Lake.",
         "image": "img/artwork/misty-lake",
         "largeimage": "img/artwork/large/misty-lake",
         "large": true
@@ -13,19 +20,22 @@
         "name": "Sunset Waves",
         "description": "Sunset over a mountain backdrop reflecting in a lake.",
         "image": "img/artwork/sunset-waves",
-        "large": false
+        "largeimage": "img/artwork/sunset-waves",
+        "large": true
       },
       {
         "name": "Sunset Cliffs",
         "description": "Sunset with waves over a mountainous cliff side.",
         "image": "img/artwork/sunset-cliffs",
-        "large": false
+        "largeimage": "img/artwork/sunset-cliffs",
+        "large": true
       },
       {
         "name": "Peeky Mountains",
         "description": "Peeks of a mountain range breaking above a dense fog in the distance.",
         "image": "img/artwork/peeky-mountains",
-        "large": false
+        "largeimage": "img/artwork/peeky-mountains",
+        "large": true
       },
       {
         "name": "Waterfall valley and mountains",
@@ -37,13 +47,15 @@
         "name": "Whiteout Purple Tree",
         "description": "Winter solstice with a mythical purple tree.",
         "image": "img/artwork/purple-snow-tree",
-        "large": false
+        "largeimage": "img/artwork/purple-snow-tree",
+        "large": true
       },
       {
         "name": "Green Mountain Bay",
         "description": "Autumnal foliage with a mountain backdrop.",
         "image": "img/artwork/green-bay",
-        "large": false
+        "largeimage": "img/artwork/green-bay",
+        "large": true
       },
       {
         "name": "Blue ridge mountain range",
@@ -75,13 +87,15 @@
         "name": "Misty top Mountains",
         "description": "Mountain peeks over a misty cloud filled sky.",
         "image": "img/artwork/misty-top-mountains",
-        "large": false
+        "largeimage": "img/artwork/misty-top-mountains",
+        "large": true
       },
       {
         "name": "Autumn Mountainside",
         "description": "Moody autumn mountainside before the storm.",
         "image": "img/artwork/autumn-mountainside",
-        "large": false
+        "largeimage": "img/artwork/autumn-mountainside",
+        "large": true
       },
       {
         "name": "Pride sunset",
