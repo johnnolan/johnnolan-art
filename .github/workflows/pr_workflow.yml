@@ -1,0 +1,16 @@
+name: "[Workflow] PR"
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test_build:
+    name: Test Build
+    uses: ./.github/workflows/test_build_job.yml
+
+  dependabot:
+    name: Dependabot Approve and Auto Merge
+    needs: ['test_build']
+    uses: ./.github/workflows/dependabot-approve-and-auto-merge_job.yml
