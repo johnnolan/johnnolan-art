@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/johnnolan/johnnolan-art#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.1"
   }
 }
